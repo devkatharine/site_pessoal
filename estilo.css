@@ -1,0 +1,136 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body {
+    margin-bottom: 100px;
+    background-color: #252632;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background: #37394b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+div {
+    color: white;
+}
+
+.logo {
+    width: 300px;
+    padding: 40px;
+    padding-right: 200px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    background-color: #921e79;
+}
+
+.nav {
+    width: 200px;
+    padding: 60px;
+    
+}
+
+.content {
+    
+    width: 600px;
+    padding: 80px;
+    text-align: left;
+    background-color: #37394b;
+    
+}
+
+
+header > div {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    
+}
+
+.grid {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: flex-start;
+  
+    
+}
+
+.grid > div{
+    padding: 50px;
+    background-color: #252632;
+    
+}
+
+section > div a{
+    color: #f8aa1c;
+    text-decoration: underline;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    
+}
+
+footer > div {
+    width: 100px;
+    padding: 95px;
+    margin: auto;
+    text-align: right;
+    background-color: #37394b;
+    color: white;
+    
+}
+
+
+
