@@ -5,8 +5,9 @@ p {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-size: 1.2rem;
-    font-family: Arial;
+    font-size: 1.0rem;
+    font-family: 'Montserrat',
+    sans-serif;
 }
 
 body {
@@ -23,7 +24,7 @@ a {
 
 img {
     max-width: 100%;
-    display: block;
+    
 }
 
 .header {
@@ -37,6 +38,7 @@ img {
 
 .menu {
     display: flex;
+    
 }
 
 .menu li {
@@ -46,7 +48,10 @@ img {
 .menu li a {
     display: block;
     padding: 10px;
+    font-size: 1.3rem;
 }
+
+
 
 div {
     color: white;
@@ -58,12 +63,14 @@ div {
     padding-right: 200px;
     padding-left: 40px;
     padding-bottom: 40px;
-    background-color: #921e79;
+    
 }
 
 .nav {
     width: 200px;
     padding: 60px;
+    font-family: 'Montserrat',
+    sans-serif;
     
 }
 
@@ -73,6 +80,8 @@ div {
     padding: 80px;
     text-align: left;
     background-color: #37394b;
+    font-family: 'Montserrat',
+    sans-serif;
     
 }
 
@@ -124,13 +133,16 @@ footer {
 
 footer > div {
     width: 100px;
-    padding: 95px;
+    padding: 70px;
     margin: auto;
     text-align: right;
     background-color: #37394b;
     color: white;
+    font-family: 'Montserrat',
+    sans-serif;
     
 }
+
 
 
 
