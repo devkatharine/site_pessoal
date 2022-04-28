@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    
     color: white;
 }
 
@@ -29,11 +29,12 @@ img {
 
 .header {
     background: #37394b;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-content: flex-end;
-    padding: 20px;
+    display: flex;
+    max-width: 800px;
+    padding: 30px 280px;
+    margin: auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
 
 .menu {
@@ -49,6 +50,13 @@ img {
     display: block;
     padding: 10px;
     font-size: 1.3rem;
+    text-decoration: none;
+    
+    
+}
+
+.menu li a:hover {
+    background-color: #f8aa1c;
 }
 
 
@@ -58,45 +66,62 @@ div {
 }
 
 .logo {
-    width: 300px;
-    padding: 40px;
-    padding-right: 200px;
-    padding-left: 40px;
+    width: 50%;
+    margin-right: 80px;
+    padding: 60px;
+    padding-right: 100px;
+    padding-left: 0px;
     padding-bottom: 40px;
+    background-color: #1b236d;
+   
     
 }
 
 .nav {
-    width: 200px;
-    padding: 60px;
-    font-family: 'Montserrat',
-    sans-serif;
+    max-width: 800px;
+    padding-right: 600px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #37394b;
     
+}
+
+nav {
+    padding-left: 900px;
+}
+
+.foto{
+    width: 80%;
+    margin-right: 80px;
+    padding: 60px;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    background-color: #1b236d;
 }
 
 .content {
+
+    display: grid;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 200px;
+    margin: auto;
+    background-color: #1b236d;
+    font-family: 'Montserrat',sans-serif;
     
-    width: 600px;
-    padding: 80px;
-    text-align: left;
-    background-color: #37394b;
-    font-family: 'Montserrat',
-    sans-serif;
+    
     
 }
 
-
-header > div {
-    display: flex;
-    gap: 20px;
-    max-width: 800px;
-    padding: 10px;
-    margin: 0 auto;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    flex: 1 1 200px;
-    
+.content > a {
+    color: #f8aa1c;
+    text-decoration: underline;
 }
+
+
+
 
 .grid {
     padding: 100px;
@@ -116,9 +141,16 @@ header > div {
     
 }
 
+
 section > div a{
     color: #f8aa1c;
     text-decoration: underline;
+}
+
+#area > img {
+    display: list-item;
+    width: 20px;
+   
 }
 
 footer {
@@ -129,6 +161,8 @@ footer {
     margin: 0 auto;
     justify-content: flex-start;
     
+    
+    
 }
 
 footer > div {
@@ -138,8 +172,8 @@ footer > div {
     text-align: right;
     background-color: #37394b;
     color: white;
-    font-family: 'Montserrat',
-    sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.411);
     
 }
 
