@@ -17,7 +17,7 @@ body {
 
 a {
     
-    color: white;
+    color: #c4c5d27e;
 }
 
 
@@ -32,7 +32,7 @@ img {
     justify-content: space-between;
     display: flex;
     max-width: 800px;
-    padding: 30px 280px;
+    padding: 0px 280px;
     margin: auto;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.151);
 }
@@ -40,10 +40,12 @@ img {
 .menu {
     display: flex;
     
+    
 }
 
 .menu li {
     margin-left: 10px;
+    
 }
 
 .menu li a {
@@ -56,7 +58,8 @@ img {
 }
 
 .menu li a:hover {
-    background-color: #f8aa1c;
+    color: white;
+    
 }
 
 
@@ -80,15 +83,17 @@ div {
 .nav {
     max-width: 800px;
     padding-right: 600px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-top: 30px;
     font-family: 'Montserrat',sans-serif;
     background-color: #37394b;
+    
     
 }
 
 nav {
     padding-left: 900px;
+
 }
 
 .foto{
@@ -107,8 +112,7 @@ nav {
     width: 50%;
     padding-left: 40px;
     padding-right: 200px;
-    margin: auto;
-    background-color: #1b236d;
+    margin: 80px;
     font-family: 'Montserrat',sans-serif;
     
     
@@ -177,6 +181,14 @@ footer > div {
     
 }
 
+footer > div:hover {
+    background-color: #f8aa1c;
+}
+
+footer > div a {
+    text-decoration: none;
+    color: white;
+}
 
 
 
