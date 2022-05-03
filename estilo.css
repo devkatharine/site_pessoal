@@ -82,6 +82,7 @@ div {
 
 .nav {
     max-width: 800px;
+    min-width: 200px;
     padding-right: 600px;
     padding-bottom: 0px;
     padding-top: 30px;
