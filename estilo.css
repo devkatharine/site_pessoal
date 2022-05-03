@@ -1,8 +1,12 @@
-body,
+*{
+    margin: 0;
+    padding: 0;
+}
+
 ul,
 li,
 p {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     list-style: none;
     font-size: 1.0rem;
@@ -11,8 +15,12 @@ p {
 }
 
 body {
-    margin-bottom: 100px;
+    font-size: 1.3em;
     background-color: #252632;
+    font-family: 'Montserrat',
+    sans-serif;
+    
+    
 }
 
 a {
@@ -22,19 +30,35 @@ a {
 
 
 
-img {
-    max-width: 100%;
-    
+.nav {
+    width: 950px;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #37394b;
+
+
 }
 
-.header {
-    background: #37394b;
+
+header {
+    background-image: url(imagens/fundoimg02.jpg);
     justify-content: space-between;
     display: flex;
-    max-width: 800px;
-    padding: 0px 280px;
+    width: 950px;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-bottom: 0px;
+    padding-top: 30px;
     margin: auto;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.151);
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: #37394b;
+    
+    
 }
 
 .menu {
@@ -80,41 +104,15 @@ div {
     
 }
 
-.nav {
-    max-width: 800px;
-    min-width: 200px;
-    padding-right: 600px;
-    padding-bottom: 0px;
-    padding-top: 30px;
-    font-family: 'Montserrat',sans-serif;
-    background-color: #37394b;
-    
-    
-}
 
-nav {
-    padding-left: 900px;
 
-}
 
-.foto{
-    width: 80%;
-    margin-right: 80px;
-    padding: 60px;
-    padding-right: 100px;
-    padding-left: 0px;
-    padding-bottom: 40px;
-    background-color: #1b236d;
-}
 
-.content {
 
+.intro {
     display: grid;
-    width: 50%;
-    padding-left: 40px;
-    padding-right: 200px;
-    margin: 80px;
     font-family: 'Montserrat',sans-serif;
+    padding: 150px;
     
     
     
@@ -124,9 +122,6 @@ nav {
     color: #f8aa1c;
     text-decoration: underline;
 }
-
-
-
 
 .grid {
     padding: 100px;
