@@ -15,6 +15,7 @@ p {
 }
 
 body {
+    height: 100vh;
     font-size: 1.3em;
     color: white;
     background-color: #252632;
@@ -31,12 +32,11 @@ a {
 
 
 nav {
-    width: 100%;
+    height: auto;
+    width: 90%;
     max-width: 900px;
-    padding-left: 800px;
-    padding-right: 800px;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding: 50px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
     background-color: #37394b;
 
@@ -44,23 +44,20 @@ nav {
 }
 
 header {
-    background-image: url(imagens/fundoimg02.jpg);
+    background-image: url(imagens/fundoimg800.jpg);
     background-repeat: no-repeat;
     color: white;
     justify-content: space-between;
     display: flex;
-    width: 100%;
+    gap: 280px;
+    height: auto;
+    width: 90%;
     max-width: 900px;
-    min-width: 200px;
-    padding-left: 800px;
-    padding-right: 800px;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding: 50px;
     margin: auto;
     font-family: 'Montserrat',
     sans-serif;
     background-color: #37394b;
-    
     
 }
 
@@ -97,9 +94,7 @@ header {
 .intro {
     display: grid;
     font-family: 'Montserrat',sans-serif;
-    padding: 150px;
-    
-    
+    padding: 0;
     
 }
 
@@ -143,10 +138,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     max-width: 900px;
     margin: 0 auto;
     justify-content: flex-start;
+    text-align: center;
     
     
     
@@ -156,7 +152,8 @@ footer > div {
     width: 100px;
     padding: 70px;
     margin: auto;
-    text-align: right;
+    margin-bottom: 100px;
+    text-align: center;
     background-color: #37394b;
     color: white;
     font-family: 'Montserrat', sans-serif;
