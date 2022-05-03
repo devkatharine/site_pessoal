@@ -15,7 +15,6 @@ p {
 }
 
 body {
-    min-height: 100vh;
     font-size: 1.3em;
     color: white;
     background-color: #252632;
@@ -31,13 +30,13 @@ a {
 
 
 
-.nav {
-    width: 950px;
+nav {
+    width: 100%;
+    max-width: 900px;
     padding-left: 800px;
     padding-right: 800px;
     padding-bottom: 0px;
     padding-top: 30px;
-    margin: auto;
     font-family: 'Montserrat', sans-serif;
     background-color: #37394b;
 
@@ -50,7 +49,8 @@ header {
     color: white;
     justify-content: space-between;
     display: flex;
-    max-width: 950px;
+    width: 100%;
+    max-width: 900px;
     min-width: 200px;
     padding-left: 800px;
     padding-right: 800px;
@@ -113,6 +113,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 50px;
     flex-wrap: wrap;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     justify-content: flex-start;
@@ -142,6 +143,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
     justify-content: flex-start;
