@@ -18,7 +18,7 @@ body {
     height: 100vh;
     font-size: 1.3em;
     color: white;
-    background-color: #252632;
+    background-color: #37394b;
     font-family: 'Montserrat',
     sans-serif;
     
@@ -112,6 +112,7 @@ header {
     max-width: 900px;
     margin: 0 auto;
     justify-content: flex-start;
+    background-color: #252632;
   
     
 }
@@ -140,9 +141,11 @@ footer {
     flex-wrap: wrap;
     width: 90%;
     max-width: 900px;
+    padding-top: 50px;
     margin: 0 auto;
     justify-content: flex-start;
     text-align: center;
+    background-color: #37394b;
     
     
     
@@ -150,11 +153,11 @@ footer {
 
 footer > div {
     width: 100px;
-    padding: 70px;
+    padding: 80px;
     margin: auto;
     margin-bottom: 100px;
     text-align: center;
-    background-color: #37394b;
+    background-color: #252632;
     color: white;
     font-family: 'Montserrat', sans-serif;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.411);
@@ -169,6 +172,7 @@ footer > div a {
     text-decoration: none;
     color: white;
 }
+
 
 
 
