@@ -183,6 +183,12 @@ footer > div a {
     min-width: 20%;
 }
 
+@media () {
+    html {
+        font-size: 50%;
+    }
+}
+
 
 
 
